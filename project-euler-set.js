@@ -1,3 +1,7 @@
+/**
+ * finds the sum of unique set of products of all multiplication equations that meet pandigital digits criteria
+ * @returns sum of pandigital products
+ */
 const sumPandigitalProducts = () => {
     let multiplier = 1234;
     let productSet = new Set();
@@ -31,6 +35,14 @@ const sumPandigitalProducts = () => {
     }, 0);
 }
 
+/**
+ * Get set of unique product values
+ * @param {Set} productSet 
+ * @param {Number} multiplier 
+ * @param {Number} low 
+ * @param {Number} high 
+ * @returns 
+ */
 const getProducts = (productSet, multiplier, low, high) => {
     for (let multiplicand = low; multiplicand < high; multiplicand++) {
         if (multiplicand.toString().includes('0')) {
