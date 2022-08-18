@@ -17,15 +17,18 @@ HINT: Some products can be obtained in more than one way so be sure to only incl
 * Combining the equation, we should have 9 pandigital digits total
 <br />
 <br />
+
 * If x (multiplicand) is 2 digits, then y (multiplier) should be 3 digits to return a product of 4 digits minimum
 * If x is 1 digit, y should be 4 digits to return a product of 4 digits minimum
 * Maths tells me this is mostly true
 <br />
 <br />
+
 * So for x at 2 digits, `lowest value: 12` and `highest value: 98`
     * For y at 3 digits, `low: 123` and `high: 987`
 <br />
 <br />
+
 * For x at 1 digit, `low: 1` and `high: 9`
     * For y at 4 digits, `low: 1234` and `high: 9876`
 
